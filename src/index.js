@@ -9,3 +9,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+// git config --global user.name "asif"
+// git config --global user.email "asif192001@gmail.com"
