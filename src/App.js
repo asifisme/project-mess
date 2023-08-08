@@ -1,10 +1,13 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <BrowserRouter>
-      <h1 className="text-3xl text-center bg-slate-500">Hello world!</h1>
+      <Routes>
+        <Route path="/" element={<Nav />} />
+      </Routes>
     </BrowserRouter>
   );
 }
